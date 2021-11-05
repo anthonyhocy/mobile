@@ -1,0 +1,108 @@
+*:focus{
+    border: 2px solid #FFFFFC;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #18274E;
+    padding: 15px;
+}
+
+.header_name {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4em;
+    color: #FBB874;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #747472;
+    color: #FFFFFC;
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.welcome_header {
+    padding: 15px 15px 15px 25px;
+}
+
+.welcome_header h1 {
+    font-family: 'Kaushan Script', cursive;
+    color: #274C77;
+    text-align: left;
+    font-size: 50px;
+}
+
+.nav_links{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav_item a{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 1.3em;
+    color: #FFFFFC;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.nav_links a:visited{
+    color: #FFFFFC;
+}
+
+.nav_links a:hover{
+    color: #FBB874;
+    background-color: #FFFFFC;
+    font-weight: 900;
+}
+
+.front_image_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #EFF2FA;
+    padding: 30px;
+}
+
+.front_image {
+    border-radius: 75%;
+    position: center;
+    max-height: 50vh;
+    max-width: 80vw;
+    margin: auto;
+    padding: 15px 15px 30px 15px;
+}
+
+.intro_text {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #151515;
+    text-align: center;
+}
+
+.name_special {
+    font-size: 35px;
+    font-family: 'Kaushan Script', cursive;
+    color: #274C77;
+    position: center;
+    text-decoration: none;
+}
+
+.name_special:hover {
+    text-decoration: underline;
+    background-color: #FFFFFC;
+    padding: 3px 10px 3px 10px;
+}
+
+
+
+
